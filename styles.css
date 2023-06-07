@@ -259,7 +259,7 @@ input {
 	cursor: pointer;
 	background: #f1f5f9;
 	color: #09090b;
-	border: 1px solid #2563eb;
+	border: 2px solid #2563eb;
 	border-radius: 2rem;
 	letter-spacing: 2px;
 	box-shadow: 0px 10px 15px -15px #000;
@@ -371,7 +371,7 @@ input {
 	border-radius: 1rem;
 }
 .tasks label:hover {
-	border: 1px solid #000;
+	opacity: 85%;
 }
 .first-input {
 	margin-left: 3%;
@@ -379,7 +379,7 @@ input {
 	font-weight: 100;
 	padding: 1% 5%;
 	border-radius: 1rem;
-	background: #00dfa2;
+	background: #98d8aa;
 }
 .s-input {
 	margin-left: 3%;
@@ -395,7 +395,7 @@ input {
 	font-weight: 100;
 	padding: 1% 5%;
 	border-radius: 1rem;
-	background: #f6ba6f;
+	background: #f7d060;
 }
 .calendar {
 	grid-column: 8/11;
@@ -465,6 +465,7 @@ input {
 	cursor: pointer;
 	position: relative;
 	margin: 10% 0 0 5%;
+	border-color: var(--primary-color);
 }
 
 .ui-checkbox::after {
@@ -504,10 +505,6 @@ input {
 }
 
 /* actions */
-
-.ui-checkbox:hover {
-	border-color: var(--primary-color);
-}
 
 .ui-checkbox:checked {
 	background: var(--primary-color);
